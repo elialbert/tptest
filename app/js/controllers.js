@@ -5,10 +5,10 @@
 
 function MyCtrl1($scope) {
     $scope.tasks = [
-	{text:'test1',level:1,parent:null},
-	{text:'test2',level:1,parent:null},
-	{text:'test1a',level:2,parent:'test1'},
-	{text:'test1b',level:2,parent:'test2'},
+	{text:'test1',level:1,parent:null, id:1},
+	{text:'test2',level:1,parent:null, id:2},
+	{text:'test1a',level:2,parent:'test1', id:3},
+	{text:'test1b',level:2,parent:'test2', id:4},
     ];
 	
     // help? how to pass extra args
