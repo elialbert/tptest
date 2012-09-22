@@ -3,10 +3,16 @@
 /* Controllers */
 
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
+function MyCtrl1($scope) {
+    $scope.tasks = [
+	{text:'test1'},
+	{text:'test2'}
+    ];
+
+}
+// MyCtrl1.$inject = [];
 
 
 function MyCtrl2() {
 }
-MyCtrl2.$inject = [];
+// MyCtrl2.$inject = [];
